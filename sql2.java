@@ -10,10 +10,10 @@ class Sql1 {
         // (110,'Harsh',11,2100,'A')"));
 
         PreparedStatement p = c.prepareStatement("insert into students value (?,?,?,?,?)");
-        p.setInt(1, 111);
-        p.setString(2, "Naina");
-        p.setInt(3, 10);
-        p.setInt(4, 1200);
+        p.setInt(1, 112);
+        p.setString(2, "Nina");
+        p.setInt(3, 11);
+        p.setInt(4, 1100);
         p.setString(5, "D");
         System.out.println(p.executeUpdate());
     }
